@@ -1,6 +1,12 @@
 /* uses the Adwaita theme as base */
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gnome-shell.css");
 
+#panel .panel-corner,
+#panel .panel-corner:active,
+#panel .panel-corner:overview,
+#panel .panel-corner:focus {
+    -panel-corner-radius: 0;}
+
 #panelActivities > *,
 #panelActivities:hover > *,
 #panelActivities:focus > *,
