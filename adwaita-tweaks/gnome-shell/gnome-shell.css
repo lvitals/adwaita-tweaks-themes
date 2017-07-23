@@ -1905,18 +1905,20 @@ StScrollBar {
   #panel .panel-button {
     -natural-hpadding: 8px;
     -minimum-hpadding: 4px;
+     margin-top: 1px; 
     font-weight: normal;
-    color: #2e3436; }
+    color: #2e3436;
+  }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
       background-color: #4a90d9 !important;
       color: #ffffff !important;
       box-shadow: none; }
       #panel .panel-button:active > .system-status-icon, #panel .panel-button:overview > .system-status-icon, #panel .panel-button:focus > .system-status-icon, #panel .panel-button:checked > .system-status-icon {
         icon-shadow: none; }
-    #panel .panel-button .app-menu-icon {
+    /* #panel .panel-button .app-menu-icon {
       width: 0;
       height: 0;
-      margin: 0; }
+      margin: 0; } */
   #panel .panel-corner,
   #panel .panel-corner:active,
   #panel .panel-corner:overview,
@@ -1954,4 +1956,24 @@ StScrollBar {
     background-image: url("classic-toggle-on-intl.svg"); }
 
 .calendar-day-with-events {
-  background-image: url("calendar-today.svg"); }
+  background-image: url(""); }
+
+
+#panelActivities > *,
+#panelActivities:hover > *,
+#panelActivities:focus > *,
+#panelActivities:active > *,
+#panelActivities:overview > *,
+#panel:overview #panelActivities.panel-button:active > *,
+#panel:overview #panelActivities.panel-button:focus > * {
+  background-image: url("activities.svg");
+  background-position: center top;
+  width: 24px;
+  height: 24px;
+  background-color: transparent !important;
+  background-gradient-direction: none !important;
+  border: 0 solid transparent !important;
+  text-shadow: 0 0 transparent !important;
+  transition-duration: 0ms !important;
+  box-shadow: none !important;
+  color: transparent; }
