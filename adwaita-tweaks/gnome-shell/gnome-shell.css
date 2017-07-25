@@ -648,8 +648,8 @@ StScrollBar {
 .osd-window,
 .resize-popup,
 .switcher-list, .workspace-switcher-container {
-  color: #eeeeec;
-  background-color: #2e3436;
+  color: #444;
+  background-color: rgba(237, 237, 237, 0.9);
   border: 1px solid rgba(238, 238, 236, 0.2);
   border-radius: 12px;
   padding: 12px; }
@@ -1162,7 +1162,7 @@ StScrollBar {
 #dash {
   font-size: 9pt;
   color: #eeeeec;
-  background-color: #2e3436;
+  background-color: rgba(237, 237, 237, 0.2);
   padding: 4px 0;
   border: 1px solid rgba(128, 128, 128, 0.4);
   border-left: 0px;
@@ -1326,7 +1326,7 @@ StScrollBar {
 
 .workspace-thumbnails {
   color: #eeeeec;
-  background-color: #2e3436;
+  background-color: rgba(237, 237, 237, 0.2);
   border: 1px solid rgba(238, 238, 236, 0.2); }
 
 .search-statustext, .no-frequent-applications-label {
