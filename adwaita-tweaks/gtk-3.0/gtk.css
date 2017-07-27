@@ -20,7 +20,7 @@ headerbar separator {
 /* shrink ssd titlebars */
 .default-decoration {
     min-height: 0; /* let the entry and button drive the titlebar size */
-    padding: 0px
+    padding: 0px;
     background-color: #2d2d2d;
 }
 
